@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { BookOpen, Code, Briefcase, Award, User } from 'lucide-react';
 
 const About = () => {
@@ -15,11 +15,9 @@ const About = () => {
           <div>
             <h2 className="text-2xl font-bold mb-4">Who I Am</h2>
             <p className="text-gray-300 leading-relaxed">
-              Passionate Developer with 6 month experience on real world project in Firsthope. 
-              Graduated from BCA and pursuing MCA with a strong academic background in computer science, 
-              Seeking a Developer role to leverage skills in HTML, CSS, JavaScript, React, MongoDB, and SQL databases. 
-              I am eager to learn from experienced IT professionals and contribute to web application development 
-              with Upskilling myself.
+              Full Stack Developer (MCA student) with 1+ years of internship and project experience. Skilled in React.js, Next.js, Node.js,MongoDB, SQL, AWS, and Generative AI. Proficient in building scalable web applications, REST APIs, and AI-powered
+              tools. Adept at frontend & backend development, cloud integration, and mobile app development. Passionate about
+              delivering impactful software solutions and continuously upskilling in modern technologies
             </p>
           </div>
         </div>
@@ -55,10 +53,14 @@ const About = () => {
               <div className="mb-4">
                 <h3 className="font-semibold text-purple-300 mb-2">Technical Skills</h3>
                 <ul className="list-disc list-inside text-gray-300 space-y-1">
-                  <li>Programming Languages: Python, JavaScript</li>
-                  <li>Web Development: HTML, CSS, JavaScript, React, Express, MongoDB, REDUX toolkit, React hooks, Vite, Nodejs, AWS, AI</li>
-                  <li>Version Control: Git & GitHub</li>
-                  <li>Other Skills: RestFull API Development and integration, Tailwind CSS, DSA, Frontend development, Backend development</li>
+                  <li>Frontend: HTML, CSS, JavaScript, React.js, Next.js, Redux,
+                   Tailwind CSS, Vite </li>
+                  <li>Backend: Node.js, Express.js, MongoDB, SQL, REST API
+                   Development, Testing API</li>
+                  <li>DevOps:  Git, GitHub, Docker, API Security, JWT Auth,Cloud Deployment (AWS, Vercel, Netlify)</li>
+                  <li>Mobile Development: Expo, Android Development, React Native</li>
+                  <li> AI/ML: Generative AI Development, Prompt Engineering, LLMs</li>
+                  <li> Programming Languages: JavaScript, Python</li>
                 </ul>
               </div>
               <div >
@@ -84,11 +86,16 @@ const About = () => {
             <h2 className="text-xl font-bold mb-4">Experience</h2>
             <div className="border-l-2 border-purple-500 pl-4 ml-2">
               <h3 className="font-semibold text-purple-300 text-lg">Fullstack Developer</h3>
-              <p className="text-gray-400 mb-2">Firsthope | May 2024 - October 2024 (6 Months)</p>
+              <p className="text-red-400 mb-2">Firsthope | May 2024 - October 2024 (6 Months)</p>
               <p className="text-gray-300 mb-4">
                 During this internship, I worked on the company website to improve User experience and 
                 Played a crucial role in the company new projects. Build foundation of a new project by 
                 writing Frontend code and Backend code to full functional API with clean coding practices.
+              </p>
+              <h3 className="font-semibold text-purple-300 text-lg">Fullstack Developer Intern</h3>
+              <p className="text-red-400 mb-2">Firsthope | March 2025 - Present (6 Months)</p>
+              <p className="text-gray-300 mb-4">
+                In this ongoing internship, I am contributing to the development of scalable web and Internal using tools . Which help to reduce company bill and improve efficiency of work. Company help me and encourage to learn Gen AI for better productive
               </p>
             </div>
           </div>
@@ -103,17 +110,23 @@ const About = () => {
             <ul className="space-y-4">
               <li>
                 <h3 className="font-semibold text-purple-300">Full Stack Web Development certificate</h3>
-                <p className="text-gray-400">Physics Wallah</p>
-                <p className="text-gray-500 text-sm">CERTIFICATE NO: eb99c0de-5a6b-468e-a53c-d60d04339d31</p>
+                <p className="text-yellow-400">Physics Wallah</p>
+                <p className="text-green-500 text-sm">CERTIFICATE NO: eb99c0de-5a6b-468e-a53c-d60d04339d31</p>
               </li>
               <li>
                 <h3 className="font-semibold text-purple-300">Backend Development certificate</h3>
-                <p className="text-gray-400">Physics Wallah</p>
-                <p className="text-gray-500 text-sm">CERTIFICATE NO: cfa39de4-b75c-4146-8870-777c9ee74326</p>
+                <p className="text-yellow-400">Physics Wallah</p>
+                <p className="text-green-500 text-sm">CERTIFICATE NO: cfa39de4-b75c-4146-8870-777c9ee74326</p>
               </li>
               <li>
                 <h3 className="font-semibold text-purple-300">System Design Workshop</h3>
-                <p className="text-gray-500 text-sm">CERTIFICATE NO: d8d0185c-f7a3-4db0-8560-326559dae7ce</p>
+                <p className="text-yellow-400">Physics Wallah</p>
+                <p className="text-green-500 text-sm">CERTIFICATE NO: d8d0185c-f7a3-4db0-8560-326559dae7ce</p>
+              </li>
+               <li>
+                <h3 className="font-semibold text-purple-300">Mobile Development</h3>
+                  <p className="text-yellow-400">Physics Wallah</p>
+                <p className="text-green-500 text-sm">CERTIFICATE NO: 7dd83930-0bbc-459f-9057-1498d9b63378</p>
               </li>
             </ul>
           </div>

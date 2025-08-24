@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -72,9 +72,10 @@ const Home = () => {
           </h1>
           <h2 className="text-2xl md:text-3xl text-purple-300 mb-6">Fullstack Developer</h2>
           <p className="text-gray-300 text-lg mb-8 max-w-2xl">
-            Passionate Developer with 6 months of experience on real-world projects. 
-            Skilled in React, MongoDB, Express, Node.js, and more. Looking to create 
-            impactful web applications and continuously upskill.
+            Full Stack Developer (MCA student) with 1+ years of internship and project experience. Skilled in React.js, Next.js, Node.js,
+            MongoDB, SQL, AWS, and Generative AI. Proficient in building scalable web applications, REST APIs, and AI-powered
+            tools. Adept at frontend & backend development, cloud integration, and mobile app development. Passionate about
+            delivering impactful software solutions and continuously upskilling in modern technologies
           </p>
           
           <div className="flex flex-wrap gap-4 mb-8">

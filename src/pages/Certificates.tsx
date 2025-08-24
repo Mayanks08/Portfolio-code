@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Award, ExternalLink } from 'lucide-react';
 
 const certificates = [
@@ -28,6 +28,15 @@ const certificates = [
     certificateNo: 'd8d0185c-f7a3-4db0-8560-326559dae7ce',
     skills: ['System Architecture', 'Scalability', 'Database Design', 'API Design', 'Microservices','Load Balancing'],
     color: 'from-orange-500 to-red-500',
+  },
+  {
+    id: 3,
+    title: 'Mobile Development Using React Native ',
+    issuer: 'Physics Wallah',
+    date: 'April 25025',
+    certificateNo: '7dd83930-0bbc-459f-9057-1498d9b63378',
+    skills: ['System Architecture', 'Scalability', 'Database Intergration', 'API Design', 'Mobile Develpoment ','React Native ', 'Mobile APIs', 'Mobile UI Design' ],
+    color: 'from-green-500 to-yellow-500',
   },
  
 ];

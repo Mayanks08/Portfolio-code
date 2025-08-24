@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
 
 const Footer = () => {
@@ -80,12 +80,22 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://react-codes.vercel.app/" 
+                  href="https://social-cube.onrender.com/login" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-purple-400 transition-colors duration-300 flex items-center group"
                 >
-                  Currency Converter <ExternalLink size={14} className="ml-1 transition-transform duration-300 group-hover:translate-x-1" />
+                  Social-Cube <ExternalLink size={14} className="ml-1 transition-transform duration-300 group-hover:translate-x-1" />
+                </a>
+              </li>
+               <li>
+                <a 
+                  href="https://lms-project-delta-smoky.vercel.app" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-purple-400 transition-colors duration-300 flex items-center group"
+                >
+                  LMS <ExternalLink size={14} className="ml-1 transition-transform duration-300 group-hover:translate-x-1" />
                 </a>
               </li>
             </ul>

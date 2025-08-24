@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
@@ -14,7 +14,7 @@ const projects = [
   {
     id: 2,
     title: 'ChatBot Tutor ',
-    description: 'Developed an intelligent chatbot to tutor children. Used Gemini API to provide interactive and responsive educational assistance.',
+    description: 'Developed an intelligent chatbot to tutor children. Used Gemini API to provide interactive and responsive educational assistance.especially built for school level students to learn python by just asking simple question from AI ',
     image: 'https://media.geeksforgeeks.org/wp-content/uploads/20240514110646/10-AI-Chatbots-for-Educational-Tutoring.webp',
     technologies: ['React', 'Gemini API', 'CSS', 'JavaScript','Python','AI Modelling','DataSets'],
     liveLink: 'https://gregarious-cendol-bffdc3.netlify.app/',
@@ -22,21 +22,21 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Currency Converter',
-    description: 'Developed a web application using React and API integration to convert currencies in real-time.',
-    image: 'https://images.unsplash.com/photo-1580519542036-c47de6196ba5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1771&q=80',
-    technologies: ['React', 'API Integration', 'CSS', 'JavaScript','Tailwind CSS','UI Component'],
-    liveLink: 'https://react-codes.vercel.app/',
-    githubLink: 'https://github.com/Mayanks08/currency-converter',
+    title: 'Social-Cube',
+    description: 'Social-Cube is an innovative social platform designed to facilitate collaborative language learning experiences. It brings together people from different linguistic backgrounds, allowing them to practice and improve their language skills in an interactive and engaging environment.',
+    image: 'https://www.elearningnews.it/_resources/images/articoli/Immagini_OK_512x268/social-media-formazione.jpg',
+    technologies: ['React', 'API Integration', 'JavaScript','Tailwind CSS','UI Component','Full stack Development', 'Deployment', 'Websockets','CDN' ],
+    liveLink: 'https://social-cube.onrender.com/login',
+    githubLink: 'https://github.com/Mayanks08/Social-Cube',
   },
   {
     id: 4,
-    title: 'Portfolio Website',
-    description: 'A responsive portfolio website built with React, Vite, and Tailwind CSS to showcase my projects and skills.',
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80',
+    title: 'Learning Management system ',
+    description: 'This is robust learning management system which is ready to go in production after some changes . In this platform admin panal is present where admin can add , delete the classes or can see how many student enrolled in courses . what is monthly sales or active learner . With Razorpay payment gate way intergeted for subscription base learning which can handke monthly subscription or course acces at one time payment',
+    image: 'https://media.licdn.com/dms/image/v2/D5612AQHuIYcN0wkPAw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1697041982516?e=2147483647&v=beta&t=Kslyd1KPGnCz6iAXuhDte9t1gh-1dc3Ub0-hHDZFAQU',
     technologies: ['React', 'Vite', 'Tailwind CSS', 'JavaScript'],
-    liveLink: '#',
-    githubLink: 'https://github.com/Mayanks08/Portfolio',
+    liveLink: 'https://lms-project-delta-smoky.vercel.app/',
+    githubLink: 'https://github.com/Mayanks08/LMS-Project',
   },
 ];
 
